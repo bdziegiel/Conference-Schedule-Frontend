@@ -1,0 +1,42 @@
+body {font-family: Arial, Helvetica, sans-serif; border: 3px solid #f1f1f1; text-align: center;}
+
+@media all and (min-width: 480px) {
+
+
+    .Login form {
+        text-align:center;
+        font-size: 22px;
+        font-weight: 600;
+        display:inline-block;
+        margin: 40px 8px 10px 8px;
+        color: #000000;
+    }
+    label {
+        margin: 8px 0;
+        display: inline-block;
+
+    }
+    input[type=text], input[type=password] {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        box-sizing: border-box;
+    }
+    button {
+        background-color: #4CAF50;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        cursor: pointer;
+        width: 100%;
+    }
+    button:disabled,
+    button[disabled]{
+        border: 1px solid #999999;
+        background-color: #cccccc;
+        color: #666666;
+    }
+}
